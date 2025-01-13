@@ -1,0 +1,949 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+.header-top {
+    background-color: black;
+}
+
+.links a i {
+    color: #625c56;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    color: #625c56;
+}
+
+/* header start */
+.header a {
+    color: black;
+    font-size: 13PX;
+    padding: 8px 12px !important;
+}
+
+.header a:hover {
+    color: #625c56;
+}
+
+.header .active {
+    color: #625c56;
+}
+
+
+.but-1 {
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+/* header end */
+
+/* benner section start */
+.benner .benner-img {
+    background: url(img/banner.jpg);
+    background-attachment: fixed;
+    /* height: 670px; */
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.benner h5 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+}
+
+.benner h3 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.benner span {
+    color: #91765a;
+    font-style: italic;
+}
+
+.benner .button-4 {
+    height: auto;
+    padding: 12px 26px;
+    border: 1px solid #91765a;
+    border-radius: 0px;
+    background-color: #91765a;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.benner .button-4:hover {
+    background-color: white;
+    color: black;
+}
+/* benner section end */
+
+/* about section start */
+.padding-sec {
+    padding: 120px 0px;
+}
+
+.section-subtitle {
+    color: #91765a;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-sec .section-title {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #14100c;
+}
+
+.about-sec .section-title span {
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    color: #91765a;
+}
+
+.about-sec .margin-bot {
+    margin-bottom: 6rem;
+}
+
+.about-sec p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #625c56;
+    margin-bottom: 20px !important;
+}
+
+.back-img::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    left: 25%;
+    background: #f2efeb;
+    z-index: -1;
+}
+
+.about-list p {
+    margin-bottom: 10px !important;
+
+}
+
+/* about section end */
+
+/* services section start */
+
+.section-head .section-subtitle {
+    color: #91765a;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section-head .section-title {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #14100c;
+}
+
+.section-head .section-title span {
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    color: #91765a;
+}
+
+.section-head {
+    position: relative;
+    margin: 0 auto 40px;
+}
+
+.section-padding {
+    padding: 120px 0px;
+}
+
+.bg-lightbrown {
+    background-color: #f2efeb;
+}
+
+
+
+.services .item.right .caption.padding-left {
+    padding-right: 45px;
+}
+
+.section-sec .caption {
+    left: auto;
+    right: 0;
+    background: #fbf8f4;
+    position: absolute;
+    left: 500px;
+    top: 200%;
+    width: 100%;
+}
+
+.section-sec .padding-left {
+    padding: 60px 45px;
+}
+
+.section-sec .content-sec {
+    position: absolute;
+}
+
+
+/* services section end */
+
+
+
+/* services-box section start */
+.services-box {
+    margin: 30px 0px;
+}
+
+.services-box .card-title {
+    margin-bottom: 10px !important;
+    font-size: 24px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: 0 0 20px 0;
+    color: #14100c;
+}
+
+/* services-box section end */
+/* pricing-list section start */
+
+
+.item-link.current {
+    pointer-events: none;
+    color: #91765a;
+}
+
+.item-link {
+    padding-right: 20px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Bodoni Moda', serif;
+    border-right: 1px solid black;
+}
+
+.Pricing-list .section-title {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Pricing-list .section-title span {
+    color: #91765a;
+}
+
+.Pricing-list {
+    background-color: black;
+}
+
+.Pricing-list .margin-top {
+    margin-top: 120px;
+}
+
+.Pricing-list .margin-bottom {
+    margin-bottom: 120px;
+}
+
+.Pricing-list .menu-list .title {
+    color: #fff;
+}
+
+.Pricing-list .menu-list .price {
+    color: #91765a;
+}
+
+.Pricing-list .nav-tabs .nav-link {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #fff;
+}
+
+.Pricing-list .nav-tabs .active a {
+    color: #91765a;
+}
+
+/* pricing-list section end */
+
+
+/* gallery section start */
+
+
+.gallery-box {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/* gallery section end */
+
+
+
+/* video-section start */
+
+.video-section.bg-img {
+    position: relative;
+    background-image: url(img/banner-1.png);
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.video-wrapper .icon {
+    font-size: 40px;
+    color: #91765a;
+    width: 90px !important;
+    height: 90px !important;
+    border: 2px solid #91765a;
+    border-radius: 50%;
+    line-height: 95px;
+    text-align: center;
+    padding: 30px;
+}
+
+/* video-section end */
+
+
+/* services-2 section start */
+.services-2 .item {
+    background: #f2efeb;
+    padding: 45px 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    line-height: 1;
+    text-align: center;
+    border: 0;
+    transition: .5s;
+}
+
+.services-2 .item h5 {
+    font-size: 21px;
+    color: #14100c;
+    margin-bottom: 0;
+}
+
+.services-2 .item a {
+
+    text-decoration: none;
+}
+
+
+.item:hover {
+    background-color: black;
+}
+
+.item:hover h5 {
+    color: white;
+}
+
+/* services-2 section end */
+
+/* appointment-section start */
+.appointment-sec .bg-img {
+    background-image: url(img/form-img.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.appointment-sec h5 {
+    font-size: 21px;
+    line-height: 1.5em;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+
+}
+
+.appointment-sec .margin-b {
+    margin-bottom: 30px;
+}
+
+.appointment-sec .margin-t {
+    margin-top: 90px;
+}
+
+.appointment-sec .padding-all {
+    padding: 45px 30px;
+}
+
+.appointment-sec .head-box h4 {
+    font-size: 27px;
+    color: #14100c;
+    margin-bottom: 30px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+.appointment-sec .my-form-btn {
+    width: 100%;
+    background: #91765a;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 52px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Outfit', sans-serif;
+}
+
+.appointment-sec .my-form-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.appointment-sec .icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.appointment-sec .text p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #91765a;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.appointment-sec .text a {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 27px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* appointment section end */
+
+
+
+/* footer-section start */
+.footer-section {
+    background-color: black;
+}
+
+.footer-section .footer-about-social-list a {
+    color: #91765a;
+    padding-right: 10px;
+}
+
+.footer-section .item .time-sec li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section .sub-button {
+    color: #fff;
+    padding: 6px;
+    background-color: #91765a;
+    border: 0;
+}
+
+.footer-section .email {
+    color: #fff;
+    padding: 6px;
+    /* border-radius: 10px; */
+    background-color: black;
+    border: 1px solid #91765a;
+}
+
+.footer-section .footer-bottom {
+    background-color: #14100c;
+    padding: 32px 0;
+    border-top: 1px solid;
+    align-items: center;
+    display: flex;
+}
+
+.footer-section .footer-bottom-text {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* footer-section end */
+
+
+
+/* *****about-page***** */
+
+/* benner-section start */
+
+.benner .bg-img {
+    background-image: url(img/about-banner.jpg);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-position: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* benner-section end */
+
+
+/* about-Tailoring section start */
+
+.section-head .section-title.white {
+    color: #fff;
+}
+
+.bg-color {
+    background-color: #14100c;
+}
+
+.about-Tailoring .text-color {
+    color: #aba59f;
+
+}
+
+.about-bottom {
+    margin: 30px 0px;
+}
+
+.about-bottom .about-signature {
+    margin-right: 20px;
+    width: 70px;
+    height: auto;
+}
+
+.about-bottom .about-rol {
+    color: #aba59f;
+    font-size: 15px;
+}
+
+.about-bottom .about-name {
+    font-size: 15px;
+    color: #91765a;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* about-Tailoring section end */
+
+
+
+
+/* *****services-page******/
+
+/* benner-services section start */
+.benner-services .bg-img {
+    background-image: url(img/services-img.jpg);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-position: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.benner-services:before {
+    content: "";
+    background: black;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.banner-header h1 {
+    position: relative;
+    font-size: 48px;
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+.banner-header h1 span {
+    font-style: italic;
+    color: #91765a;
+}
+.benner-services h1{
+    z-index: 3;
+
+}
+.benner-services h5 {
+    z-index: 3;
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+}
+
+/* benner-services section end */
+
+/* *****pricing-page******/
+
+/* benner-services section start */
+
+.benner-pricing .bg-img {
+    background-image: url(img/pricing-benner.jpg);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-position: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.benner-pricing::before {
+    content: "";
+    background: black;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+}
+.benner-pricing h1{
+    z-index: 3;
+
+}
+.benner-pricing h5 {
+    z-index: 3;
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+}
+/* benner-services section end */
+
+
+/* *****gallery-page******/
+
+/* benner-gallery section start */
+
+.benner-gallery .bg-img {
+    background-image: url(img/gallery-benner.jpg);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-position: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.benner-gallery::before {
+    content: "";
+    background: black;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+}
+.benner-gallery h1{
+    z-index: 3;
+
+}
+.benner-gallery h5 {
+    z-index: 3;
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+}
+/* benner-gallery section end */
+
+/* Video Gallery section start */
+
+ 
+.vid-area {
+    position: relative;
+    overflow: hidden;
+}
+
+.vid-icon {
+    position: relative;
+}
+
+.video-gallery-button {
+    position: absolute;
+    top: 90%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: opacity 0.3s;
+
+}
+
+.video-gallery-polygon {
+    background-color:#91765a;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.video-gallery-button:hover {
+    opacity: 0.8;
+}
+/* Video Gallery section end */
+
+
+
+/* *****contact-page******/
+
+/* get-in-touch section start */
+
+.contact-form {
+    width: 100%;
+    display: block;
+    padding: 60px 30px 30px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-form .my-form-btn {
+    width: 100%;
+    background: #91765a;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 52px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-family: 'Outfit', sans-serif;
+}
+.contact-form .my-form-btn:hover{
+    background-color: black;
+    color: white;
+}
+.info-box .items i {
+    font-size: 27px;
+    color: #91765a;
+    margin-right: 15px;
+    background: #f2efeb;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 17px;
+    border-radius: 100%;
+}
+.section-head p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #625c56;
+    margin-bottom: 20px;
+}
+
+/* get-in-touch section end */
+
+
+/* *****blog-page******/
+
+/* blog section start */
+
+.blog3 .post-cont .tag {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    color: #91765a;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+}
+
+.blog3 .post-cont h5 a {
+    color: #14100c;
+    font-size: 32px;
+    text-decoration:none;
+}
+.blog3 .post-cont  a {
+    text-decoration:none;
+}
+.blog3 p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #625c56;
+    margin-bottom: 20px;
+}
+
+
+.blog3 .post-img .date {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #91765a;
+    border: 1px solid #91765a;
+    color: #fff;
+    padding: 12px 9px 2px 9px;
+    text-align: center;
+}
+.blog3 .post-img {
+    position: relative;
+    overflow: hidden;
+}
+.blog3 .post-img .date span {
+    font-family: 'Outfit', sans-serif;
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.blog3 .post-img .date i {
+    font-family: 'Bodoni Moda', serif;
+    display: block;
+    font-size: 30px;
+    font-style: normal;
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+.blog3 .post-img a{
+    text-decoration: none;
+}
+.blog3-sidebar .widget {
+    background: #f2efeb;
+    padding: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.blog3-sidebar .search form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: #fbf8f4;
+    margin-bottom: 0;
+    
+}
+ 
+.blog3-sidebar .widget-title h6 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e5e1dc;
+    font-size: 24px;
+    line-height: 1.75em;
+    margin-bottom: 15px;
+    color: #14100c;
+}
+.blog3-sidebar .widget .recent .thum {
+    width: 90px;
+    overflow: hidden;
+    float: left;
+}
+.blog3-sidebar .widget .recent a {
+    display: block;
+    margin-left: 105px;
+}
+.blog3-sidebar .widget ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.blog3-sidebar .widget ul li a{
+    text-decoration: none;
+    color: #14100c;
+}
+.blog3-sidebar .widget ul li i {
+    font-size: 9px;
+    margin-right: 10px;
+}
+.blog3-sidebar .tags li {
+    margin: 3px !important;
+    padding: 8px 20px;
+    background-color: #fbf8f4;
+    border: 1px solid #fbf8f4;
+    color: #14100c !important;
+    float: left;
+}
+/* blog section end */
